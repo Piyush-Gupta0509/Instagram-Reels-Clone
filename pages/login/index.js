@@ -99,7 +99,7 @@ function index() {
           {/* if error , then show error */}
           {error != "" && <div style={{ color: "red" }}>{error}</div>}
           <Link href="/forgot">
-            <div style={{ color: "blue", marginTop: "1rem" }}>
+            <div style={{ color: "blue", marginTop: "1rem" ,cursor:"pointer"}}>
               Forget Password
             </div>
           </Link>

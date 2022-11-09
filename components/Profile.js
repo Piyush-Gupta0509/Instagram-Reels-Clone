@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import Navbar from "./Navbar";
 import Image from "next/image";
-import user from "../assets/avatar.png";
+// import user from "../assets/avatar.png";
 import { AuthContext } from "../context/auth";
 import { doc, onSnapshot } from "firebase/firestore";
 import {db} from '../firebase'

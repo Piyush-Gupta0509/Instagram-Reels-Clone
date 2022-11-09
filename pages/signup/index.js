@@ -104,6 +104,7 @@ function index() {
           />
           <TextField
             id="outlined-basic"
+            type="password"
             label="Password"
             fullWidth
             variant="outlined"
